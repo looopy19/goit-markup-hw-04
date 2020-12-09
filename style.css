@@ -63,6 +63,11 @@ a {
   text-decoration: none;
 }
 
+/* a:visited,
+a:active {
+  color: var(--primary-text-color);
+} */
+
 img {
   display: block;
   max-width: 100%;
@@ -138,6 +143,10 @@ img {
   padding-bottom: 32px;
 }
 
+.page-nav a {
+  color: var(--primary-text-color);
+}
+
 .page-nav li + li,
 .upper-contacts li + li {
   margin-left: 50px;
@@ -168,10 +177,6 @@ img {
 .phone-link:focus .phone-icon {
   fill: var(--accent-color);
 }
-
-/* .page-nav a:visited { */
-/* color: var(--primary-text-color); */
-/* } */
 
 /* main */
 
@@ -461,6 +466,7 @@ img {
 }
 
 .footer-social {
+  align-items: flex-start;
   margin-left: 70px;
 }
 
@@ -502,7 +508,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-  /* text-align: left; */
+  align-items: center;
+  padding-top: 12px;
 }
 
 /* Портфолио */

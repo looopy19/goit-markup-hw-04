@@ -463,10 +463,10 @@ img {
 
 .footer-flex {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social {
-  align-items: flex-start;
   margin-left: 70px;
 }
 
@@ -509,7 +509,7 @@ img {
   text-transform: uppercase;
   margin-bottom: 20px;
   align-items: center;
-  padding-top: 12px;
+  /* padding-top: 12px; */
 }
 
 /* Портфолио */
